@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <style>
+        * {
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: black;
+        }
+
+        .head {
+            display: flex;
+            /* border: 2px solid red; */
+            justify-content: space-between;
+        }
+
+        .img {
+            width: 200px;
+            margin-top: 5px;
+        }
+
+        .mid-head {
+            margin-left: -500px;
+            /* margin-top: px; */
+        }
+
+        ul {
+            /* margin-left: 24px; */
+            display: flex;
+        }
+
+        ul li {
+            padding: 20px;
+            list-style-type: none;
+            font-size: 25px;
+            margin-top: 20px;
+
+        }
+
+        .btn {
+            padding: 5px;
+            border-radius: 1rem;
+            margin-top: 34px;
+            margin-right: 34px;
+            color: red;
+            font-size: 20px;
+
+        }
+
+        .main-area {
+            /* border: 2px solid aqua; */
+            width: 99%;
+            margin-left: 8px;
+            height: 80vh;
+            margin-top: 23px;
+        }
+
+        .head1 {
+            margin-left: 23px;
+            margin-top: 10px;
+            font-size: 35px;
+        }
+
+        .main-area img {
+            width: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: 80vh;
+        }
+
+        .row {
+            /* border: 2px solid red; */
+            /* height: 1000vh; */
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            border: 2px solid pink;
+            width: 230px;
+            margin: 23px;
+            height: 300px;
+            border-radius: 1rem;
+        }
+        .card:hover{
+            transition: 2;
+        }
+
+        .card img {
+            width: 230px;
+            height: 300px;
+            border-radius: 1rem;
+
+            background-size: cover;
+        }
+        #inputkar{
+            color: black;
+            margin-left: 284px;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="head">
+            <div class="left-head">
+                <img class="img" src="./netflix.png" alt="netflix-png">
+            </div>
+            <div class="mid-head">
+                <ul>
+                    <li href="#">Home</li>
+                    <li href="#">Tv show</li>
+                    <li href="#">Movies</li>
+                    <li href="#">Recently Added </li>
+                    <li href="#">My List</li>
+                </ul>
+            </div>
+            <div class="right-head">
+                <button class="btn">search</button>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="main-area">
+            <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil dolore, voluptas in cumque veritatis quibusdam veniam necessitatibus quis, quam temporibus possimus voluptatem. -->
+            <img src="/img/home1.jpg" alt="image">
+        </div>
+        <div class="heading">
+            <h1 class="head1"> Popular Movies</h1>
+            
+            <!-- ...................input ................. -->
+                        <input type="text" placeholder="search" id="inputkar"
+                                                           onkeyup="searchitem()">
+        
+                    </div>
+        <div class="row">
+            <div class="card">
+                <img src="./img/home2.jpg" alt="img">
+          <h1></h1>
+            </div>
+
+            <div class="card">
+                <img src="./img/m10.jpg" alt="img">
+            </div>
+
+            <div class="card">
+                <img src="./img/m1.jpg" alt="img">
+            </div>
+
+
+            <div class="card">
+                <img src="./img/m2.jpg" alt="img">
+            </div>
+
+            <div class="card">
+                <img src="./img/m3.jpg" alt="img">
+            </div>
+
+            <div class="card">
+                <img src="./img/m4.jpg" alt="img">
+            </div>
+
+            <div class="card">
+                <img src="./img/m5.jpg" alt="img">
+            </div>
+
+            <div class="card">
+                <img src="./img/m6.jpg" alt="img">
+            </div>
+
+            <div class="card">
+                <img src="./img/m7.jpg" alt="img">
+            </div>
+
+            <div class="card">
+                <img src="./img/m8.png" alt="img">
+            </div>
+
+            <div class="card">
+                <img src="./img/coming1.jpg" alt="img">
+            </div>
+
+            <div class="card">
+                <img src="./img/coming2.jpg" alt="img">
+            </div>
+
+            <div class="card">
+                <img src="./img/coming3.jpg" alt="img">
+            </div>
+
+            <div class="card">
+                <img src="./img/coming4.jpg" alt="img">
+            </div>
+
+            <div class="card">
+                <img src="./img/coming5.jpg" alt="img">
+            </div>
+
+            <div class="card">
+                <img src="./img/coming6.jpeg" alt="img">
+            </div>
+
+            <div class="card">
+                <img src="./img/coming7.jpg" alt="img">
+            </div>
+
+            <div class="card">
+                <img src="./img/coming8.jpg" alt="img">
+            </div>
+
+            <div class="card">
+                <img src="./img/coming9.jpg" alt="img">
+            </div>
+
+            <div class="card">
+                <img src="./img/coming10.jpg" alt="img">
+            </div>
+
+
+        </div>
+    </section>
+
+</body>
+
+</html>
